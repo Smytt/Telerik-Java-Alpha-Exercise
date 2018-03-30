@@ -6,11 +6,11 @@ public class AboveTheMainDiagonal2 {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(reader.readLine());
-        int sum = 0;
+        long sum = 0;
 
-        for (int i = 0; i < n - 1; i++) {
+        for (int i = 0; i < n; i++) {
             for (int j = i; j < n; j++) {
-                sum += (int)Math.pow(2, i+j);
+                sum += (long)Math.pow(2, i+j);
             }
         }
 
