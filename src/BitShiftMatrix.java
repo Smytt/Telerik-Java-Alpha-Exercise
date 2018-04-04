@@ -16,8 +16,8 @@ public class BitShiftMatrix {
         ArrayList<Integer> row = new ArrayList<>();
         ArrayList<Integer> col = new ArrayList<>();
         String[] codes = br.readLine().split(" ");
-        int sum = 1;
-        int cellValue = 1;
+        BigInteger sum = BigInteger.valueOf(1);
+        BigInteger cellValue = BigInteger.valueOf(1);
 
         for (String code : codes) {
             row.add(Integer.parseInt(code) / coef);
@@ -25,6 +25,7 @@ public class BitShiftMatrix {
         }
 
         boolean[][] matrix = new boolean[r][c];
+        matrix[curRow][curCol] = true;
 
         for (int i = 0; i < n; i++) {
             int targetRow = row.get(i);
@@ -33,43 +34,44 @@ public class BitShiftMatrix {
             if (targetCol > curCol) {
                 int moveRight = targetCol - curCol;
                 for (int j = 1; j <= moveRight; j++) {
-                    cellValue = cellValue << 1;
+                    cellValue = cellValue.shiftLeft(1);
+                    curCol++;
                     if (!matrix[curRow][curCol]) {
-                        sum += cellValue;
+                        sum = sum.add(cellValue);
                         matrix[curRow][curCol] = true;
                     }
-                    curCol++;
+
                 }
             } else {
                 int moveLeft = curCol - targetCol;
                 for (int j = 1; j <= moveLeft; j++) {
-                    cellValue = cellValue >> 1;
+                    cellValue = cellValue.shiftRight(1);
+                    curCol--;
                     if (!matrix[curRow][curCol]) {
-                        sum += cellValue;
+                        sum = sum.add(cellValue);
                         matrix[curRow][curCol] = true;
                     }
-                    curCol--;
                 }
             }
             if (targetRow < curRow) {
                 int moveUp = curRow - targetRow;
                 for (int j = 1; j <= moveUp; j++) {
-                    cellValue = cellValue << 1;
+                    cellValue = cellValue.shiftLeft(1);
+                    curRow--;
                     if (!matrix[curRow][curCol]) {
-                        sum += cellValue;
+                        sum = sum.add(cellValue);
                         matrix[curRow][curCol] = true;
                     }
-                    curRow--;
                 }
             } else {
                 int moveDown = targetRow - curRow;
                 for (int j = 1; j <= moveDown; j++) {
-                    cellValue = cellValue >> 1;
+                    cellValue = cellValue.shiftRight(1);
+                    curRow++;
                     if (!matrix[curRow][curCol]) {
-                        sum += cellValue;
+                        sum = sum.add(cellValue);
                         matrix[curRow][curCol] = true;
                     }
-                    curRow++;
                 }
             }
         }
