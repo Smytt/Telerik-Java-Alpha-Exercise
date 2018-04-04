@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7093e0f9-aa28-4cd7-a456-b53468dc9dc2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BitShiftMatrix.java" afterPath="$PROJECT_DIR$/src/BitShiftMatrix.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -418,7 +417,7 @@
       <workItem from="1522409208070" duration="31880000" />
       <workItem from="1522673636383" duration="664000" />
       <workItem from="1522677288539" duration="2340000" />
-      <workItem from="1522829521802" duration="16561000" />
+      <workItem from="1522829521802" duration="16617000" />
     </task>
     <task id="LOCAL-00001" summary="Joro The Rabbit solved">
       <created>1522494481664</created>
@@ -448,11 +447,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522868861740</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="BitShiftMatrix fix">
+      <created>1522871528904</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1522871528904</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103323000" />
+    <option name="totallyTimeSpent" value="103379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -530,7 +536,8 @@
     <MESSAGE value="Numbers Triangle, Primes to N" />
     <MESSAGE value="Big Numbers" />
     <MESSAGE value="BitShiftMatrix, Brackets, Factorial, Permutations" />
-    <option name="LAST_COMMIT_MESSAGE" value="BitShiftMatrix, Brackets, Factorial, Permutations" />
+    <MESSAGE value="BitShiftMatrix fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="BitShiftMatrix fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
