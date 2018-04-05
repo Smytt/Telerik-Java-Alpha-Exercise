@@ -4,11 +4,12 @@ public class Labyrinth {
         // 1 - passage
         // 2 - target
         // start from [startRow, startCol]
+
         int[][] labyrinth = {
-                {1, 1, 1, 0, 2, 1, 1, 0, 1, 1},
+                {1, 1, 1, 0, 0, 1, 1, 1, 1, 1},
                 {0, 1, 0, 0, 0, 0, 1, 0, 0, 1},
-                {0, 1, 0, 1, 0, 1, 1, 1, 0, 1},
-                {1, 1, 0, 1, 0, 1, 0, 1, 0, 1},
+                {0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 2},
+                {1, 1, 0, 1, 0, 1, 0, 1, 1},
                 {0, 1, 0, 1, 0, 1, 0, 1, 1, 1},
                 {0, 1, 0, 1, 0, 1, 0, 0, 0, 0},
                 {0, 1, 1, 1, 1, 1, 1, 1, 0, 1},
@@ -27,7 +28,7 @@ public class Labyrinth {
     }
 
     static boolean canReachTarget(int[][] labyrinth, int currentRow, int currentCol) {
-        if(currentCol < 0 || currentRow < 0 || currentRow >= labyrinth.length || currentCol >= labyrinth[0].length) {
+        if (currentCol < 0 || currentRow < 0 || currentRow >= labyrinth.length || currentCol >= labyrinth[currentRow].length) {
             return false;
         }
 
@@ -41,18 +42,9 @@ public class Labyrinth {
 
         labyrinth[currentRow][currentCol] = 0;
 
-        if (!canReachTarget(labyrinth, currentRow - 1, currentCol)) {
-            if (!canReachTarget(labyrinth, currentRow, currentCol + 1)) {
-                if (!canReachTarget(labyrinth, currentRow + 1, currentCol)) {
-                    if (!canReachTarget(labyrinth, currentRow, currentCol - 1)) {
-                        return false;
-                    }
-                    return true;
-                }
-                return true;
-            }
-            return true;
-        }
-        return true;
+        return  canReachTarget(labyrinth, currentRow - 1, currentCol) ||
+                canReachTarget(labyrinth, currentRow, currentCol + 1) ||
+                canReachTarget(labyrinth, currentRow + 1, currentCol) ||
+                canReachTarget(labyrinth, currentRow, currentCol - 1);
     }
 }
