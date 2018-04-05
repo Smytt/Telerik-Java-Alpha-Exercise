@@ -3,7 +3,7 @@ public class Labyrinth {
         // 0 - can't step
         // 1 - passage
         // 2 - target
-        // start from [0, 0]
+        // start from [startRow, startCol]
         int[][] labyrinth = {
                 {1, 1, 1, 0, 2, 1, 1, 0, 1, 1},
                 {0, 1, 0, 0, 0, 0, 1, 0, 0, 1},
