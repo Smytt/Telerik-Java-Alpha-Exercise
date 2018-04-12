@@ -1,8 +1,6 @@
-import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.List;
 
 public class SolveSudoku {
@@ -22,26 +20,24 @@ public class SolveSudoku {
     public static void main(String[] args) throws IOException {
         fakeInput();
 
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        InputReader br = new InputReader();
         List<List<Integer>> sudoku = new ArrayList<>();
 
-        for (int i = 1; i <= 9; i++) {
-            String row = br.readLine();
-            row = row.replace('-', '0');
-
-            List<Integer> chars = new ArrayList<Integer>();
-            for (char c : row.toCharArray()) {
-                chars.add(c - '0');
+        for (int i = 0; i < 9; i++) {
+            sudoku.add(new ArrayList<Integer>());
+            for (int j = 0; j < 9; j++) {
+                int num = br.readInt();
+                sudoku.get(i).add(num);
             }
-            sudoku.add(chars);
         }
 
-        solveSudoku(sudoku, 0);
-
-        sudoku.forEach(row -> {
-            row.forEach(System.out::print);
-            System.out.println();
-        });
+        if (solveSudoku(sudoku, 0)) {
+            sudoku.forEach(row -> {
+                row.forEach(System.out::print);
+                System.out.println();
+            });
+        }
 
     }
 
@@ -62,13 +58,12 @@ public class SolveSudoku {
                 if (solveSudoku(sudoku, rowIndex)) {
                     b = true;
                     return true;
-                }
-                else {
+                } else {
                     row.set(emptyIndex, 0);
                     b = false;
                 }
             }
-            if(!b) {
+            if (!b) {
                 return false;
             }
 
@@ -120,6 +115,49 @@ public class SolveSudoku {
             }
         }
         return true;
+    }
+
+    static class InputReader {
+        private InputStream stream;
+        private byte[] buf = new byte[1024];
+        private int curChar;
+        private int numChars;
+
+        InputReader() {
+            this.stream = System.in;
+        }
+
+        int read() {
+            if (numChars == -1)
+                throw new InputMismatchException();
+            if (curChar >= numChars) {
+                curChar = 0;
+                try {
+                    numChars = stream.read(buf);
+                } catch (IOException e) {
+                    throw new InputMismatchException();
+                }
+                if (numChars <= 0)
+                    return -1;
+            }
+            return buf[curChar++];
+        }
+
+        int readInt() {
+            int c = read();
+            while (isSpaceChar(c)) {
+                c = read();
+            }
+            if (c == '-') {
+                return 0;
+            } else {
+                return c - '0';
+            }
+        }
+
+        boolean isSpaceChar(int c) {
+            return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
+        }
     }
 
 }

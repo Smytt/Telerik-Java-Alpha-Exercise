@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Sudoku {
+class Test {
     public static void main(String[] args) throws IOException {
         int[][] field = new int[9][9];
         readField(field);
