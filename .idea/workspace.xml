@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7093e0f9-aa28-4cd7-a456-b53468dc9dc2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GirlsGoneWild.java" afterPath="$PROJECT_DIR$/src/GirlsGoneWild.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SolveSudoku.java" afterPath="$PROJECT_DIR$/src/SolveSudoku.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test.java" afterPath="$PROJECT_DIR$/src/Test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +32,8 @@
       <file leaf-file-name="GirlsGoneWild.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GirlsGoneWild.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="204">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -437,7 +434,7 @@
       <workItem from="1522957785602" duration="437000" />
       <workItem from="1522958254910" duration="3683000" />
       <workItem from="1523346714335" duration="23326000" />
-      <workItem from="1523528051403" duration="16779000" />
+      <workItem from="1523528051403" duration="16811000" />
     </task>
     <task id="LOCAL-00001" summary="Joro The Rabbit solved">
       <created>1522494481664</created>
@@ -523,11 +520,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523544473634</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="girls gone wild -one recursion done">
+      <created>1523563193926</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1523563193926</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170066000" />
+    <option name="totallyTimeSpent" value="170098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1082" height="1047" extended-state="0" />
@@ -611,7 +615,8 @@
     <MESSAGE value="Solve Sudoku" />
     <MESSAGE value="Solve Sudoku - changes, unfinished!" />
     <MESSAGE value="Solve Sudoku - refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve Sudoku - refactored" />
+    <MESSAGE value="girls gone wild -one recursion done" />
+    <option name="LAST_COMMIT_MESSAGE" value="girls gone wild -one recursion done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1046,8 +1051,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GirlsGoneWild.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="204">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
