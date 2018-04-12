@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class SolveSudoku {
     static void fakeInput() {
@@ -37,37 +36,54 @@ public class SolveSudoku {
 
         solveSudoku(sudoku);
 
+        sudoku.forEach(row -> {
+            row.forEach(System.out::print);
+            System.out.println();
+        });
+
     }
 
-    static void solveSudoku(List<List<Character>> sudoku) {
+    static boolean solveSudoku(List<List<Character>> sudoku) {
         for (int rowIndex = 0; rowIndex < 9; rowIndex++) {
             List<Character> row = sudoku.get(rowIndex);
             int emptyIndex = row.indexOf('-');
             if (emptyIndex == -1) {
                 continue;
             }
-            for (char i = '1'; i <= '9'; i++) {
-                if (row.contains(i)) {
-                    continue;
-                }
-                if (isValidSudoku(sudoku, rowIndex, i)) {
-                    row.set(emptyIndex, i);
-                    solveSudoku(sudoku);
-                    sudoku.get(rowIndex).set(emptyIndex, '-');
+            ArrayList<Character> possibleChars = findPossibleCharsForCell(sudoku, rowIndex, emptyIndex);
+            if (possibleChars.size() == 0) {
+                return false;
+            }
+            for (Character possibleChar : possibleChars) {
+                row.set(emptyIndex, possibleChar);
+                if (!solveSudoku(sudoku)) {
+                    row.set(emptyIndex, '-');
+                    return false;
                 }
             }
-            return;
         }
 
-        sudoku.forEach(row -> {
-            row.forEach(digit -> {
-                System.out.print(digit);
-            });
-            System.out.println();
-        });
+        return true;
     }
 
-    private static boolean isValidSudoku(List<List<Character>> sudoku, int rowIndex, char i) {
+    private static ArrayList<Character> findPossibleCharsForCell(List<List<Character>> sudoku, int rowIndex, int emptyIndex) {
+        ArrayList<Character> possibleChars = new ArrayList<>();
+        List<Character> row = sudoku.get(rowIndex);
+
+        for (char i = '1'; i <= '9'; i++) {
+            if (row.contains(i)) {
+                continue;
+            }
+            if (!canBeInColumnAndSubsquare(sudoku, rowIndex, i)) {
+                continue;
+            }
+            possibleChars.add(i);
+        }
+
+        return possibleChars;
+    }
+
+    private static boolean canBeInColumnAndSubsquare(List<List<Character>> sudoku, int rowIndex, char i) {
         List<Character> row = sudoku.get(rowIndex);
         int emptyIndex = row.indexOf('-');
 
