@@ -23,18 +23,20 @@ public class SolveSudoku {
         fakeInput();
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        List<List<Character>> sudoku = new ArrayList<>();
+        List<List<Integer>> sudoku = new ArrayList<>();
 
         for (int i = 1; i <= 9; i++) {
             String row = br.readLine();
-            List<Character> chars = new ArrayList<Character>();
+            row = row.replace('-', '0');
+
+            List<Integer> chars = new ArrayList<Integer>();
             for (char c : row.toCharArray()) {
-                chars.add(c);
+                chars.add(c - '0');
             }
             sudoku.add(chars);
         }
 
-        solveSudoku(sudoku);
+        solveSudoku(sudoku, 0);
 
         sudoku.forEach(row -> {
             row.forEach(System.out::print);
@@ -43,34 +45,45 @@ public class SolveSudoku {
 
     }
 
-    static boolean solveSudoku(List<List<Character>> sudoku) {
-        for (int rowIndex = 0; rowIndex < 9; rowIndex++) {
-            List<Character> row = sudoku.get(rowIndex);
-            int emptyIndex = row.indexOf('-');
+    static boolean solveSudoku(List<List<Integer>> sudoku, int rI) {
+        for (int rowIndex = rI; rowIndex < 9; rowIndex++) {
+            List<Integer> row = sudoku.get(rowIndex);
+            int emptyIndex = row.indexOf(0);
             if (emptyIndex == -1) {
                 continue;
             }
-            ArrayList<Character> possibleChars = findPossibleCharsForCell(sudoku, rowIndex, emptyIndex);
+            ArrayList<Integer> possibleChars = findPossibleCharsForCell(sudoku, rowIndex, emptyIndex);
             if (possibleChars.size() == 0) {
                 return false;
             }
-            for (Character possibleChar : possibleChars) {
+            boolean b = false;
+            for (Integer possibleChar : possibleChars) {
                 row.set(emptyIndex, possibleChar);
-                if (!solveSudoku(sudoku)) {
-                    row.set(emptyIndex, '-');
-                    return false;
+                if (solveSudoku(sudoku, rowIndex)) {
+                    b = true;
+                    return true;
+                }
+                else {
+                    row.set(emptyIndex, 0);
+                    b = false;
                 }
             }
-        }
+            if(!b) {
+                return false;
+            }
 
+            if (row.get(emptyIndex) == '-') {
+                return false;
+            }
+        }
         return true;
     }
 
-    private static ArrayList<Character> findPossibleCharsForCell(List<List<Character>> sudoku, int rowIndex, int emptyIndex) {
-        ArrayList<Character> possibleChars = new ArrayList<>();
-        List<Character> row = sudoku.get(rowIndex);
+    private static ArrayList<Integer> findPossibleCharsForCell(List<List<Integer>> sudoku, int rowIndex, int emptyIndex) {
+        ArrayList<Integer> possibleChars = new ArrayList<>();
+        List<Integer> row = sudoku.get(rowIndex);
 
-        for (char i = '1'; i <= '9'; i++) {
+        for (int i = 1; i <= 9; i++) {
             if (row.contains(i)) {
                 continue;
             }
@@ -83,12 +96,12 @@ public class SolveSudoku {
         return possibleChars;
     }
 
-    private static boolean canBeInColumnAndSubsquare(List<List<Character>> sudoku, int rowIndex, char i) {
-        List<Character> row = sudoku.get(rowIndex);
-        int emptyIndex = row.indexOf('-');
+    private static boolean canBeInColumnAndSubsquare(List<List<Integer>> sudoku, int rowIndex, int i) {
+        List<Integer> row = sudoku.get(rowIndex);
+        int emptyIndex = row.indexOf(0);
 
         //check if current char exists in column
-        for (List<Character> checkRow : sudoku) {
+        for (List<Integer> checkRow : sudoku) {
             if (checkRow.get(emptyIndex) == i) {
                 return false;
             }
@@ -100,7 +113,7 @@ public class SolveSudoku {
 
         for (int smallRow = smallSquareStartRow; smallRow < smallSquareStartRow + 3; smallRow++) {
             for (int smallCol = smallSquareStartCol; smallCol < smallSquareStartCol + 3; smallCol++) {
-                char checkChar = sudoku.get(smallRow).get(smallCol);
+                int checkChar = sudoku.get(smallRow).get(smallCol);
                 if (checkChar == i) {
                     return false;
                 }
