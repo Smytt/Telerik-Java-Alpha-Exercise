@@ -2,15 +2,14 @@ import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class Passwords {
+public class PasswordsString {
 
     static void fakeInput() {
-        String input = "25\n" +
-                "<><>===<<=>><=<>==>>><<>\n" +
-                "767508";
+        String input = "21\n" +
+                "=<>=><==<><<><<<<>>=\n" +
+                "871540";
         System.setIn(new ByteArrayInputStream(input.getBytes()));
     }
 
@@ -20,45 +19,41 @@ public class Passwords {
         int n = Integer.parseInt(br.readLine());
         char[] commands = br.readLine().toCharArray();
         int k = Integer.parseInt(br.readLine());
-        ArrayList<Integer> password = new ArrayList<>();
-        ArrayList<ArrayList<Integer>> allPasswords = new ArrayList<>();
+        StringBuilder password = new StringBuilder();
+        ArrayList<StringBuilder> allPasswords = new ArrayList<>();
         if (foundPassword(commands, n, k, password, allPasswords)) {
-
-            allPasswords.get(k - 1).forEach(System.out::print);
-            System.out.println();
-
+            System.out.println(allPasswords.get(k-1));
         }
 //        allPasswords.forEach(System.out::println);
     }
 
     private static boolean foundPassword(
             char[] commands, int passwordLength,
-            int k, ArrayList<Integer> currentPassword, ArrayList<ArrayList<Integer>> allPasswords) {
+            int k, StringBuilder currentPassword, ArrayList<StringBuilder> allPasswords) {
 
-        if (currentPassword.size() == passwordLength) {
-            allPasswords.add(new ArrayList<>(currentPassword));
+        if (currentPassword.length() == passwordLength) {
+            allPasswords.add(currentPassword);
             return allPasswords.size() == k;
         }
 
         int lastDigit;
         char command = '.';
-        if (currentPassword.size() == 0) {
+        if (currentPassword.length() == 0) {
             lastDigit = 9;
         } else {
-            lastDigit = currentPassword.get(currentPassword.size() - 1);
-
-            command = commands[currentPassword.size() - 1];
+            lastDigit = currentPassword.charAt(currentPassword.length() - 1) - '0';
+            command = commands[currentPassword.length() - 1];
         }
 
         for (int currentChar = 0; currentChar < 10; currentChar++) {
-            currentPassword.add(currentChar);
+            currentPassword.append(currentChar);
             switch (command) {
                 case '<':
                     if (lastDigit == 1) {
                         removeLast(currentPassword);
                         return false;
                     }
-                    if (currentChar == 0 || (currentChar >= lastDigit && lastDigit != 0 )) {
+                    if (currentChar == 0 || (currentChar >= lastDigit && lastDigit != 0)) {
                         removeLast(currentPassword);
                         continue;
                     }
@@ -82,7 +77,7 @@ public class Passwords {
                     }
                     break;
                 case '=':
-                    if(currentChar != lastDigit) {
+                    if (currentChar != lastDigit) {
                         removeLast(currentPassword);
                         continue;
                     }
@@ -104,7 +99,7 @@ public class Passwords {
         return false;
     }
 
-    private static void removeLast(ArrayList<Integer> currentPassword) {
-        currentPassword.remove(currentPassword.size() - 1);
+    private static void removeLast(StringBuilder currentPassword) {
+        currentPassword.setLength(currentPassword.length() - 1);
     }
 }
