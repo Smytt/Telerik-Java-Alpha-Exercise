@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-public class PasswordsString {
+public class PasswordsV3 {
 
     static void fakeInput() {
         String input = "21\n" +

@@ -2,9 +2,8 @@ import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 
-class K {
+class Helper {
     static int k = 0;
 }
 public class PasswordsV2 {
@@ -21,9 +20,9 @@ public class PasswordsV2 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         String commands = br.readLine();
-        K.k = Integer.parseInt(br.readLine());
+        Helper.k = Integer.parseInt(br.readLine());
         StringBuilder password = new StringBuilder();
-        if (foundPassword(commands, n, K.k, password)) {
+        if (foundPassword(commands, n, Helper.k, password)) {
             System.out.println(password);
         }
 //        allPasswords.forEach(System.out::println);
@@ -35,15 +34,15 @@ public class PasswordsV2 {
 
         //check if password has reached target length and if it's k-th variation
         if (currentPassword.length() == passwordLength) {
-            K.k--;
-            return K.k==0;
+            Helper.k--;
+            return Helper.k==0;
         }
 
         //get first digit
         if (currentPassword.length() == 0) {
             for (int i = 0; i < 10; i++) {
                 currentPassword.append(i);
-                if (!foundPassword(commands, passwordLength, K.k, currentPassword)) {
+                if (!foundPassword(commands, passwordLength, Helper.k, currentPassword)) {
                     removeLast(currentPassword);
                     continue;
                 }
@@ -65,7 +64,7 @@ public class PasswordsV2 {
             }
             for (int i = start; i < end + 1; i++) {
                 currentPassword.append(i);
-                if (!foundPassword(commands, passwordLength, K.k, currentPassword)) {
+                if (!foundPassword(commands, passwordLength, Helper.k, currentPassword)) {
                     removeLast(currentPassword);
                     continue;
                 }
@@ -80,11 +79,11 @@ public class PasswordsV2 {
             start = lastDigit + 1;
             end = 9;
             currentPassword.append(0);
-            if (!foundPassword(commands, passwordLength, K.k, currentPassword)) {
+            if (!foundPassword(commands, passwordLength, Helper.k, currentPassword)) {
                 removeLast(currentPassword);
                 for (int i = start; i < end + 1; i++) {
                     currentPassword.append(i);
-                    if (!foundPassword(commands, passwordLength, K.k, currentPassword)) {
+                    if (!foundPassword(commands, passwordLength, Helper.k, currentPassword)) {
                         removeLast(currentPassword);
                         continue;
                     }
@@ -96,7 +95,7 @@ public class PasswordsV2 {
         }
         else {
             currentPassword.append(lastDigit);
-            if(!foundPassword(commands, passwordLength, K.k, currentPassword)){
+            if(!foundPassword(commands, passwordLength, Helper.k, currentPassword)){
                 removeLast(currentPassword);
                 return false;
             }
