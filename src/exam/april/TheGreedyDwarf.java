@@ -8,9 +8,11 @@ import java.util.ArrayList;
 
 public class TheGreedyDwarf {
     static void fakeInput() {
-        String input = "2 2\n" +
-                "0 10\n" +
-                "10 10";
+        String input = "4 3\n" +
+                "3 2 4\n" +
+                "2 0 3\n" +
+                "1 1 5\n" +
+                "2 2 5";
         System.setIn(new ByteArrayInputStream(input.getBytes()));
     }
 
@@ -35,7 +37,7 @@ public class TheGreedyDwarf {
                 row.add(currentChar);
                 if (currentChar == 0) {
                     currentRow = i;
-                    currentCol = (j + 1) / 2;
+                    currentCol = j;
                 }
             }
             field.add(row);
