@@ -1,4 +1,4 @@
-package exam.april;
+package retakeExam;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -11,11 +11,10 @@ class Count {
     static int count = 0;
 }
 
-public class Expressions {
-
+public class ExpressionsAgain {
     static void fakeInput() {
-        String input = "105\n" +
-                "5";
+        String input = "1000001\n" +
+                "101";
         System.setIn(new ByteArrayInputStream(input.getBytes()));
     }
 
@@ -30,26 +29,15 @@ public class Expressions {
         findCombinations(number, combinations, new ArrayList<>());
 
         combinations.forEach(combination -> {
-            doCalculations(combination, operators, false, 0, '+', target);
+            System.out.println(combination);
+            doCalculations(combination, operators, target);
         });
 
         System.out.println(Count.count);
     }
 
-    private static void doCalculations(ArrayList<Long> combination, char[] operators, boolean carry, long carried, char carriedOperation, long target) {
+    private static void doCalculations(ArrayList<Long> combination, char[] operators, long target) {
         if (combination.size() == 1) {
-            if (carry) {
-                switch (carriedOperation) {
-                    case '+': {
-                        combination.set(0, carried + combination.get(0));
-                        break;
-                    }
-                    case '-': {
-                        combination.set(0, carried - combination.get(0));
-                        break;
-                    }
-                }
-            }
             if (combination.get(0) == target) {
                 Count.count++;
             }
@@ -62,45 +50,19 @@ public class Expressions {
                     case '*': {
                         alteredCombination.set(i + 1, alteredCombination.get(i) * alteredCombination.get(i + 1));
                         alteredCombination.remove(i);
-                        doCalculations(alteredCombination, operators, carry, carried, carriedOperation, target);
+                        doCalculations(alteredCombination, operators, target);
                         break;
                     }
                     case '+': {
-                        if (carry) {
-                            switch (carriedOperation) {
-                                case '+': {
-                                    carried += alteredCombination.get(i);
-                                    break;
-                                }
-                                case '-': {
-                                    carried -= alteredCombination.get(i);
-                                    break;
-                                }
-                            }
-                        } else {
-                            carried = alteredCombination.get(i);
-                        }
+                        alteredCombination.set(i + 1, alteredCombination.get(i) + alteredCombination.get(i + 1));
                         alteredCombination.remove(i);
-                        doCalculations(alteredCombination, operators, true, carried, '+', target);
+                        doCalculations(alteredCombination, operators, target);
                         break;
                     }
                     case '-': {
-                        if (carry) {
-                            switch (carriedOperation) {
-                                case '+': {
-                                    alteredCombination.set(i, carried + alteredCombination.get(i));
-                                    break;
-                                }
-                                case '-': {
-                                    alteredCombination.set(i, carried - alteredCombination.get(i));
-                                    break;
-                                }
-                            }
-                        } else {
-                            carried = alteredCombination.get(i);
-                        }
+                        alteredCombination.set(i + 1, alteredCombination.get(i) - alteredCombination.get(i + 1));
                         alteredCombination.remove(i);
-                        doCalculations(alteredCombination, operators, true, carried, '-', target);
+                        doCalculations(alteredCombination, operators, target);
                         break;
                     }
                 }
@@ -130,4 +92,5 @@ public class Expressions {
             currentCombination.remove(currentCombination.size() - 1);
         }
     }
+
 }
