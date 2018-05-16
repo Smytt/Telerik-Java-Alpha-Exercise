@@ -1,19 +1,23 @@
 import java.io.*;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class Test {
     public static void main(String[] args) throws IOException {
-        final String ANSI_RESET = "\u001B[0m";
-        final String ANSI_BLACK = "\u001B[30m";
-        final String ANSI_RED = "\u001B[31m";
-        final String ANSI_GREEN = "\u001B[32m";
-        final String ANSI_YELLOW = "\u001B[33m";
-        final String ANSI_BLUE = "\u001B[34m";
-        final String ANSI_PURPLE = "\u001B[35m";
-        final String ANSI_CYAN = "\u001B[36m";
-        final String ANSI_WHITE = "\u001B[37m";
+        List<Integer> test = Arrays.asList(1,2,3,4,5);
+        test(test);
+        print(test);
+    }
 
-        System.out.println(ANSI_RED + "This text is red!" + ANSI_RESET);
+    private static void print(List<Integer> test) {
+        for (int n: test) {
+            System.out.println(n);
+        }
+    }
+
+    private static void test(List<Integer> test) {
+        test.set(1,100);
     }
 }
