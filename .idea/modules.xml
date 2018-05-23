@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Entrance Exam Prep.iml" filepath="$PROJECT_DIR$/Entrance Exam Prep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Data Structures Implementation/Data Structures Implementation.iml" filepath="$PROJECT_DIR$/Data Structures Implementation/Data Structures Implementation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exams/Exams.iml" filepath="$PROJECT_DIR$/Exams/Exams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP Exercise/OOP Exercise.iml" filepath="$PROJECT_DIR$/OOP Exercise/OOP Exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Problems/Problems.iml" filepath="$PROJECT_DIR$/Problems/Problems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SearchingAlgorithms/SearchingAlgorithms.iml" filepath="$PROJECT_DIR$/SearchingAlgorithms/SearchingAlgorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SortingAlgorithms/SortingAlgorithms.iml" filepath="$PROJECT_DIR$/SortingAlgorithms/SortingAlgorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stream/Stream.iml" filepath="$PROJECT_DIR$/Stream/Stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Telerik Java Alpha.iml" filepath="$PROJECT_DIR$/Telerik Java Alpha.iml" />
     </modules>
   </component>
 </project>
