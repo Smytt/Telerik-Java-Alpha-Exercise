@@ -34,13 +34,14 @@ public class OddNumber {
         int nums = Integer.parseInt(br.readLine());
 
         for (int i = 0; i < nums; i++) {
-            String nextString = br.readLine();
+            String key = br.readLine();
 
-            if (!occurances.containsKey(nextString)) {
-                occurances.put(nextString, 0);
+            if (!occurances.containsKey(key)) {
+                occurances.put(key, 0);
             }
 
-            occurances.put(nextString, occurances.get(nextString) + 1);
+            Integer oldValue = occurances.get(key);
+            occurances.put(key, oldValue + 1);
         }
 
         for (String key: occurances.keySet()) {
