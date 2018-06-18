@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/Test.java" description="&#10;    static class InputReader {&#10;        private In..." line="4" />
+    <bookmark url="file://$PROJECT_DIR$/src/Test.java" description="&#10;    static class InputReader {&#10;        private In..." line="0" />
+    <bookmark url="file://$PROJECT_DIR$/Problems/src/Stools.java" line="233" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7093e0f9-aa28-4cd7-a456-b53468dc9dc2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/src/CokiSkoki.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/src/Swappings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exams/src/dsa_exam/HDNLToy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exams/src/dsa_exam/OnlineMarket.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exams/src/dsa_exam/Packages.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exams/src/dsa_exam/Slogan.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exams/src/dsa_retake/Cheaters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exams/src/dsa_retake/GreaterMoney.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exams/src/dsa_retake/Subsequence.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exams/src/dsa_retake/SupermarketQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Leet Code problems/src/problem_84/LargestRectangleInHistogram.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/src/Beers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/src/BojiGoal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/src/Diameter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/src/Kamion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/src/NaPlaj.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/src/PathToOne.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/src/PlayerRanking.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/src/PlusOneMultipleOne.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Problems/src/Stools.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test.java" afterPath="$PROJECT_DIR$/src/Test.java" />
     </list>
@@ -23,121 +40,138 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Kruskal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data Structures Implementation/src/Kruskal/Kruskal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data Structures Implementation/src/binary_heap_implementation/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinBinaryHeap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data Structures Implementation/src/binary_heap_implementation/MinBinaryHeap.java">
+      <file leaf-file-name="Slogan.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exams/src/dsa_exam/Slogan.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#InputReader#0;class#Slogan#0" expanded="false" />
+                <element signature="class#OutputWriter#0;class#Slogan#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Packages.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exams/src/dsa_exam/Packages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="11" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#InputReader#0;class#Packages#0" expanded="false" />
+                <element signature="method#read#0;class#InputReader#0;class#Packages#0" expanded="false" />
+                <element signature="class#OutputWriter#0;class#Packages#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BojiGoal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problems/src/BojiGoal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="49" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#InputReader#0;class#BojiGoal#0" expanded="false" />
+                <element signature="method#read#0;class#InputReader#0;class#BojiGoal#0" expanded="false" />
+                <element signature="class#OutputWriter#0;class#BojiGoal#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LargestRectangleInHistogram.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leet Code problems/src/problem_84/LargestRectangleInHistogram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="62" lean-forward="false" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Swappings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problems/src/Swappings.java">
+      <file leaf-file-name="Cheaters.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Exams/src/dsa_retake/Cheaters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+            <state relative-caret-position="2023">
+              <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2512#2513#0" expanded="true" />
-                <element signature="e#2548#2549#0" expanded="true" />
-                <element signature="e#2594#2595#0" expanded="true" />
-                <element signature="e#2639#2640#0" expanded="true" />
+                <element signature="class#InputReader#0;class#Cheaters#0" expanded="false" />
+                <element signature="method#readDouble#0;class#InputReader#0;class#Cheaters#0" expanded="false" />
+                <element signature="method#readLineIgnoreSpace#0;class#InputReader#0;class#Cheaters#0" expanded="false" />
+                <element signature="class#OutputWriter#0;class#Cheaters#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CokiSkoki.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Problems/src/CokiSkoki.java">
+      <file leaf-file-name="NaPlaj.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problems/src/NaPlaj.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="510">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="class#InputReader#0;class#NaPlaj#0" expanded="false" />
+                <element signature="method#readDouble#0;class#InputReader#0;class#NaPlaj#0" expanded="false" />
+                <element signature="method#readLineIgnoreSpace#0;class#InputReader#0;class#NaPlaj#0" expanded="false" />
+                <element signature="class#OutputWriter#0;class#NaPlaj#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <file leaf-file-name="PrintStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/PrintStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="12784">
+              <caret line="803" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1129" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxAreaofIsland.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leet Code problems/src/problem_695/MaxAreaofIsland.java">
+      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="152" column="20" lean-forward="true" selection-start-line="152" selection-start-column="20" selection-end-line="152" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#9256#9304#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnitsOfWork.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problems/src/UnitsOfWork.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="38" column="81" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="38" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2165#2166#0" expanded="true" />
-                <element signature="e#2207#2208#0" expanded="true" />
-                <element signature="e#4822#4823#0" expanded="true" />
-                <element signature="e#4892#4893#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="253" column="13" lean-forward="false" selection-start-line="253" selection-start-column="13" selection-end-line="253" selection-end-column="13" />
+            <state relative-caret-position="3621">
+              <caret line="239" column="6" lean-forward="false" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data Structures Implementation/src/Kruskal/Main.java">
+      <file leaf-file-name="SupermarketQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exams/src/dsa_retake/SupermarketQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="1020">
+              <caret line="60" column="60" lean-forward="false" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="class#InputReader#0;class#SupermarketQueue#0" expanded="false" />
+                <element signature="method#readLong#0;class#InputReader#0;class#SupermarketQueue#0" expanded="false" />
+                <element signature="method#readDouble#0;class#InputReader#0;class#SupermarketQueue#0" expanded="false" />
+                <element signature="e#7756#7757#0" expanded="true" />
+                <element signature="e#7845#7846#0" expanded="true" />
+                <element signature="e#7884#7885#0" expanded="true" />
+                <element signature="e#7961#7962#0" expanded="true" />
+                <element signature="class#OutputWriter#0;class#SupermarketQueue#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7123">
+              <caret line="456" column="19" lean-forward="false" selection-start-line="456" selection-start-column="19" selection-end-line="456" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -167,6 +201,16 @@
       <find>],</find>
       <find>\],\[</find>
       <find>1, 1,</find>
+      <find>remo</find>
+      <find>pla</find>
+      <find>fieldR</find>
+      <find>writer.pr</find>
+      <find>out</find>
+      <find>new pro</find>
+      <find>readD</find>
+      <find>readline</find>
+      <find>ser</find>
+      <find>inser</find>
     </findStrings>
     <replaceStrings>
       <replace>getNumericValue</replace>
@@ -186,30 +230,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lambdaExersize/NumbersFrom1ToN.java" />
-        <option value="$PROJECT_DIR$/src/lambdaExersize/AppearanceCount.java" />
-        <option value="$PROJECT_DIR$/src/lambdaExersize/MazeRunner.java" />
-        <option value="$PROJECT_DIR$/src/lambdaExercize/MazeRunner.java" />
-        <option value="$PROJECT_DIR$/src/implementing_dynamic_stack/Node.java" />
-        <option value="$PROJECT_DIR$/src/implementing_dynamic_stack/DynamicStack.java" />
-        <option value="$PROJECT_DIR$/src/implementing_static_queue/StaticQueue.java" />
-        <option value="$PROJECT_DIR$/src/implementing_static_queue/Main.java" />
-        <option value="$PROJECT_DIR$/src/sorted_lists/RemoveDuplicateFromSortedList.java" />
-        <option value="$PROJECT_DIR$/src/sorted_lists/ReverseLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/sorted_lists/RotateLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/implementing_sorting_algorithms/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/sorting_algorithms_implementation/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/sorting_algorithms_implementation/InsertionSort.java" />
-        <option value="$PROJECT_DIR$/src/sorting_algorithms_implementation/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/sorting_algorithms_implementation/MergeSort.java" />
-        <option value="$PROJECT_DIR$/src/sorting_algorithms_implementation/RadixSort.java" />
-        <option value="$PROJECT_DIR$/src/searching_algorithms_implemetation/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/tree_implementation/Tree.java" />
-        <option value="$PROJECT_DIR$/src/tree_implementation/Node.java" />
-        <option value="$PROJECT_DIR$/src/tree_implementation/BreadthFirstSearch.java" />
-        <option value="$PROJECT_DIR$/src/tree_implementation/DepthFirstSearch.java" />
-        <option value="$PROJECT_DIR$/SortingAlgorithms/src/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/SortingAlgorithms/src/InsertionSort.java" />
         <option value="$PROJECT_DIR$/SortingAlgorithms/src/MergeSort.java" />
         <option value="$PROJECT_DIR$/SortingAlgorithms/src/QuickSort.java" />
         <option value="$PROJECT_DIR$/SortingAlgorithms/src/RadixSort.java" />
@@ -235,8 +255,32 @@
         <option value="$PROJECT_DIR$/Problems/src/UnitsOfWork.java" />
         <option value="$PROJECT_DIR$/Data Structures Implementation/src/Kruskal/Kruskal.java" />
         <option value="$PROJECT_DIR$/Problems/src/Swappings.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/Problems/src/CokiSkoki.java" />
+        <option value="$PROJECT_DIR$/Problems/src/PathToOne.java" />
+        <option value="$PROJECT_DIR$/Problems/src/PlusOneMultipleOne.java" />
+        <option value="$PROJECT_DIR$/Problems/src/PlayerRanking.java" />
+        <option value="$PROJECT_DIR$/Problems/src/Diameter.java" />
+        <option value="$PROJECT_DIR$/Problems/src/Kamioni.java" />
+        <option value="$PROJECT_DIR$/Problems/src/Kamion.java" />
+        <option value="$PROJECT_DIR$/src/Test.kt" />
+        <option value="$PROJECT_DIR$/Problems/src/Beers.java" />
+        <option value="$PROJECT_DIR$/Exams/src/dsa_exam/NDHLToy.java" />
+        <option value="$PROJECT_DIR$/Exams/src/dsa_exam/HDNLToy.java" />
+        <option value="$PROJECT_DIR$/Exams/src/dsa_exam/OnlineMarket2.java" />
+        <option value="$PROJECT_DIR$/Exams/src/dsa_exam/Packages.java" />
+        <option value="$PROJECT_DIR$/Exams/src/dsa_exam/Slogan.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/Exams/src/dsa_exam/OnlineMarket.java" />
+        <option value="$PROJECT_DIR$/Problems/src/Stools.java" />
+        <option value="$PROJECT_DIR$/Problems/src/BojiGoal.java" />
+        <option value="$PROJECT_DIR$/Leet Code problems/src/problem_84/LargestRectangleInHistogram.java" />
+        <option value="$PROJECT_DIR$/Exams/src/dsa_retake/Subsequence.java" />
+        <option value="$PROJECT_DIR$/Problems/src/SupermarketQueue.java" />
+        <option value="$PROJECT_DIR$/Problems/src/Cheaters.java" />
+        <option value="$PROJECT_DIR$/Exams/src/dsa_retake/GreaterMoney.java" />
+        <option value="$PROJECT_DIR$/Exams/src/dsa_retake/SupermarketQueue.java" />
+        <option value="$PROJECT_DIR$/Problems/src/NaPlaj.java" />
+        <option value="$PROJECT_DIR$/Exams/src/dsa_retake/Cheaters.java" />
       </list>
     </option>
   </component>
@@ -248,9 +292,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="736" />
-    <option name="y" value="51" />
-    <option name="width" value="929" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -271,9 +314,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -316,6 +357,58 @@
             <path>
               <item name="Telerik-Java-Alpha-Exercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="Telerik-Java-Alpha-Exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="Exams" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Telerik-Java-Alpha-Exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Telerik-Java-Alpha-Exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="Exams" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Telerik-Java-Alpha-Exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Telerik-Java-Alpha-Exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="Exams" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsa_exam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Telerik-Java-Alpha-Exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Telerik-Java-Alpha-Exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="Exams" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsa_exam" type="462c0819:PsiDirectoryNode" />
+              <item name="HDNLToy.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Telerik-Java-Alpha-Exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Telerik-Java-Alpha-Exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="Exams" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsa_exam" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineMarket.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Telerik-Java-Alpha-Exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Telerik-Java-Alpha-Exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="Exams" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsa_retake" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Telerik-Java-Alpha-Exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Telerik-Java-Alpha-Exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="Leet Code problems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Telerik-Java-Alpha-Exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Telerik-Java-Alpha-Exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="Leet Code problems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Telerik-Java-Alpha-Exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Telerik-Java-Alpha-Exercise" type="462c0819:PsiDirectoryNode" />
               <item name="Problems" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -323,6 +416,13 @@
               <item name="Telerik-Java-Alpha-Exercise" type="462c0819:PsiDirectoryNode" />
               <item name="Problems" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Telerik-Java-Alpha-Exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Telerik-Java-Alpha-Exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Stools.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Telerik-Java-Alpha-Exercise" type="b2602c69:ProjectViewProjectNode" />
@@ -347,7 +447,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,12 +463,12 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Telerik\Telerik-Java-Alpha-Exercise\Data Structures Implementation\src" />
-      <recent name="D:\Telerik\Telerik-Java-Alpha-Exercise\Exams\src" />
-      <recent name="D:\Telerik\Telerik-Java-Alpha-Exercise\Exams" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+      <recent name="InheritanceExercise" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Telerik\Telerik-Java-Alpha-Exercise\Exams\src\dsa_exam" />
       <recent name="D:\Telerik\Telerik-Java-Alpha-Exercise\src\exam\april" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -376,9 +478,10 @@
       <recent name="" />
       <recent name="chess" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
-      <recent name="InheritanceExercise" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Telerik\Telerik-Java-Alpha-Exercise\Data Structures Implementation\src" />
+      <recent name="D:\Telerik\Telerik-Java-Alpha-Exercise\Exams\src" />
+      <recent name="D:\Telerik\Telerik-Java-Alpha-Exercise\Exams" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -393,26 +496,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CokiSkoki">
-    <configuration name="AsteroidCollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="problem_735.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="problem_735.AsteroidCollision" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Leet Code problems" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Application.NaPlaj">
     <configuration name="BitShiftMatrix" type="Application" factoryName="Application" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="BitShiftMatrix" />
@@ -427,9 +511,9 @@
       <module name="Problems" />
       <envs />
     </configuration>
-    <configuration name="CokiSkoki" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Cheaters (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="CokiSkoki" />
+      <option name="MAIN_CLASS_NAME" value="Cheaters" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -441,9 +525,42 @@
       <module name="Problems" />
       <envs />
     </configuration>
-    <configuration name="Swappings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Cheaters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Swappings" />
+      <option name="MAIN_CLASS_NAME" value="dsa_retake.Cheaters" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Exams" />
+      <envs />
+    </configuration>
+    <configuration name="GreaterMoney" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dsa_retake.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="dsa_retake.GreaterMoney" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Exams" />
+      <envs />
+    </configuration>
+    <configuration name="NaPlaj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="NaPlaj" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -455,9 +572,9 @@
       <module name="Problems" />
       <envs />
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SupermarketQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="dsa_retake.SupermarketQueue" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -466,21 +583,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Telerik Java Alpha" />
-      <envs />
-    </configuration>
-    <configuration name="UnitsOfWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="UnitsOfWork" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Problems" />
+      <module name="Exams" />
       <envs />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
@@ -684,19 +787,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.BitShiftMatrix" />
-      <item index="1" class="java.lang.String" itemvalue="Application.AsteroidCollision" />
-      <item index="2" class="java.lang.String" itemvalue="Application.UnitsOfWork" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Swappings" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="5" class="java.lang.String" itemvalue="Application.CokiSkoki" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Cheaters" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SupermarketQueue" />
+      <item index="3" class="java.lang.String" itemvalue="Application.GreaterMoney" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Cheaters (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Application.NaPlaj" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CokiSkoki" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Swappings" />
-        <item index="3" class="java.lang.String" itemvalue="Application.UnitsOfWork" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AsteroidCollision" />
+        <item index="0" class="java.lang.String" itemvalue="Application.NaPlaj" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Cheaters" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SupermarketQueue" />
+        <item index="3" class="java.lang.String" itemvalue="Application.GreaterMoney" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Cheaters (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -728,7 +831,10 @@
       <workItem from="1526042796108" duration="18621000" />
       <workItem from="1526475201189" duration="1617000" />
       <workItem from="1526480979308" duration="1611000" />
-      <workItem from="1526887774876" duration="127116000" />
+      <workItem from="1526887774876" duration="163348000" />
+      <workItem from="1528010207445" duration="35021000" />
+      <workItem from="1528112040932" duration="70384000" />
+      <workItem from="1529327465872" duration="1672000" />
     </task>
     <task id="LOCAL-00001" summary="Joro The Rabbit solved">
       <created>1522494481664</created>
@@ -933,11 +1039,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527751147987</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="some problems">
+      <created>1527834112165</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1527834112165</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="505742000" />
+    <option name="totallyTimeSpent" value="649051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -948,22 +1061,21 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41966173" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17970401" sideWeight="0.509375" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20718816" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44397464" sideWeight="0.490625" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15364583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22135417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45560253" sideWeight="0.49166667" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45560253" sideWeight="0.49166667" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -971,6 +1083,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1013,7 +1126,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Numbers Triangle, Primes to N" />
     <MESSAGE value="Big Numbers" />
     <MESSAGE value="BitShiftMatrix, Brackets, Factorial, Permutations" />
     <MESSAGE value="BitShiftMatrix fix" />
@@ -1038,7 +1150,8 @@
     <MESSAGE value="Sorted tasks" />
     <MESSAGE value="solved Cooking" />
     <MESSAGE value="implementations of algorithms and some problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementations of algorithms and some problems" />
+    <MESSAGE value="some problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="some problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1072,6 +1185,12 @@
           <line>73</line>
           <properties />
           <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Exams/src/dsa_retake/SupermarketQueue.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="175" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Problems/src/SolveSudoku.java</url>
@@ -1137,236 +1256,20 @@
           </properties>
           <option name="timeStamp" value="114" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Exams/src/dsa_exam/Slogan.java</url>
+          <line>40</line>
+          <properties class="dsa_exam.Slogan" method="checkSlogan">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="121" />
+      <option name="time" value="177" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Problems/src/NextPermutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/src/ReverseString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/src/ReverseArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/src/PrimeTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/src/HorsePath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/src/Factorial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/src/CrookedDigitsIterative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/src/BigNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/src/BalancedNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/src/AlphaNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/src/Brackets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structures Implementation/src/sorted_lists/RemoveDuplicateFromSortedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/src/PrimesToN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/src/ZigZag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="43" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="13" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/src/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="715" column="23" lean-forward="false" selection-start-line="715" selection-start-column="23" selection-end-line="715" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structures Implementation/src/binary_heap_implementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structures Implementation/src/binary_heap_implementation/BinaryHeapImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structures Implementation/src/binary_heap_implementation/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structures Implementation/src/tree_implementation/BreadthFirstSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#223#232#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structures Implementation/src/tree_implementation/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structures Implementation/src/sorted_lists/RotateLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding>
-            <element signature="e#636#637#0" expanded="false" />
-            <element signature="e#667#668#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leet Code problems/src/FloodGill733.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leet Code problems/src/P733/FloodFill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/com/sun/corba/se/impl/orbutil/graph/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Set.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1379,7 +1282,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1387,9 +1289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1397,15 +1296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1421,11 +1311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="22" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1727#1728#0" expanded="true" />
-            <element signature="e#1774#1775#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1433,9 +1318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <marker date="1527504792647" expanded="true" signature="162:184" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1443,7 +1325,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1451,7 +1332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1459,9 +1339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="60" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1469,9 +1346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1479,15 +1353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="17" column="81" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="17" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1495,15 +1360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="294" column="53" lean-forward="false" selection-start-line="294" selection-start-column="53" selection-end-line="294" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="253" column="13" lean-forward="false" selection-start-line="253" selection-start-column="13" selection-end-line="253" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1512,16 +1368,8 @@
         <state relative-caret-position="204">
           <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structures Implementation/src/Kruskal/Kruskal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1529,7 +1377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1537,63 +1384,380 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/src/CokiSkoki.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="4683" column="0" lean-forward="false" selection-start-line="4683" selection-start-column="0" selection-end-line="4683" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/AbstractStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="791" column="0" lean-forward="false" selection-start-line="791" selection-start-column="0" selection-end-line="791" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leet Code problems/src/problem_695/MaxAreaofIsland.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="152" column="20" lean-forward="true" selection-start-line="152" selection-start-column="20" selection-end-line="152" selection-end-column="20" />
+        <state relative-caret-position="154">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#9256#9304#0" expanded="false" />
+            <element signature="e#2896#2897#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Problems/src/UnitsOfWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="38" column="81" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="38" selection-end-column="81" />
+        <state relative-caret-position="795">
+          <caret line="132" column="25" lean-forward="false" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/src/Swappings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2512#2513#0" expanded="false" />
+            <element signature="e#2548#2549#0" expanded="false" />
+            <element signature="e#2594#2595#0" expanded="false" />
+            <element signature="e#2639#2640#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/src/PathToOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="48" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/src/PlusOneMultipleOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leet Code problems/src/problem_695/MaxAreaofIsland.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#9256#9304#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/src/PlayerRanking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="77" column="29" lean-forward="false" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="class#InputReader#0;class#PlayerRanking#0" expanded="false" />
+            <element signature="e#3057#3058#0" expanded="false" />
+            <element signature="e#3104#3105#0" expanded="false" />
+            <element signature="e#6388#6389#0" expanded="false" />
+            <element signature="e#6477#6478#0" expanded="false" />
+            <element signature="class#OutputWriter#0;class#PlayerRanking#0" expanded="false" />
+            <element signature="e#6584#6585#0" expanded="false" />
+            <element signature="e#6688#6689#0" expanded="false" />
+            <element signature="e#7054#7055#0" expanded="false" />
+            <element signature="e#7092#7093#0" expanded="false" />
+            <element signature="e#7715#7716#0" expanded="false" />
+            <element signature="e#7772#7773#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structures Implementation/src/tree_implementation/DepthFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/src/Diameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="class#InputReader#0;class#Diameter#0" expanded="false" />
+            <element signature="class#OutputWriter#0;class#Diameter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="91" column="13" lean-forward="false" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structures Implementation/src/Kruskal/Kruskal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="13" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="2866" column="18" lean-forward="false" selection-start-line="2866" selection-start-column="18" selection-end-line="2866" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exams/src/dsa_exam/OnlineMarket2.java" />
+    <entry file="file://$PROJECT_DIR$/Problems/src/Kamion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="49" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="6" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="class#InputReader#0;class#Kamion#0" expanded="false" />
+            <element signature="class#OutputWriter#0;class#Kamion#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/src/Beers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="class#InputReader#0;class#Beers#0" expanded="false" />
+            <element signature="class#OutputWriter#0;class#Beers#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exams/src/dsa_exam/OnlineMarket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="157" column="39" lean-forward="false" selection-start-line="157" selection-start-column="39" selection-end-line="157" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/src/Stools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2165#2166#0" expanded="true" />
-            <element signature="e#2207#2208#0" expanded="true" />
-            <element signature="e#4822#4823#0" expanded="true" />
-            <element signature="e#4892#4893#0" expanded="true" />
+            <element signature="class#InputReader#0;class#Stools#0" expanded="false" />
+            <element signature="class#OutputWriter#0;class#Stools#0" expanded="false" />
+            <element signature="e#6309#6310#0" expanded="true" />
+            <element signature="e#6370#6371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exams/src/dsa_exam/HDNLToy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="211" column="5" lean-forward="true" selection-start-line="211" selection-start-column="5" selection-end-line="211" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#printOpen#0;class#HDNLToy#0" expanded="false" />
+            <element signature="class#InputReader#0;class#HDNLToy#0" expanded="false" />
+            <element signature="class#OutputWriter#0;class#HDNLToy#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/src/Swappings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+        <state relative-caret-position="119">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2512#2513#0" expanded="true" />
-            <element signature="e#2548#2549#0" expanded="true" />
-            <element signature="e#2594#2595#0" expanded="true" />
-            <element signature="e#2639#2640#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problems/src/CokiSkoki.java">
+    <entry file="file://$PROJECT_DIR$/Exams/src/dsa_exam/Packages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="85">
+          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="11" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="class#InputReader#0;class#Packages#0" expanded="false" />
+            <element signature="method#read#0;class#InputReader#0;class#Packages#0" expanded="false" />
+            <element signature="class#OutputWriter#0;class#Packages#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exams/src/dsa_exam/Slogan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#InputReader#0;class#Slogan#0" expanded="false" />
+            <element signature="class#OutputWriter#0;class#Slogan#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exams/src/dsa_retake/Subsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="class#InputReader#0;class#Subsequence#0" expanded="false" />
+            <element signature="method#read#0;class#InputReader#0;class#Subsequence#0" expanded="false" />
+            <element signature="method#readInt#0;class#InputReader#0;class#Subsequence#0" expanded="false" />
+            <element signature="method#readLong#0;class#InputReader#0;class#Subsequence#0" expanded="false" />
+            <element signature="method#readDouble#0;class#InputReader#0;class#Subsequence#0" expanded="false" />
+            <element signature="e#4869#4870#0" expanded="false" />
+            <element signature="e#4946#4947#0" expanded="false" />
+            <element signature="class#OutputWriter#0;class#Subsequence#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exams/src/dsa_retake/GreaterMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5347">
+          <caret line="575" column="50" lean-forward="true" selection-start-line="575" selection-start-column="50" selection-end-line="575" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leet Code problems/src/problem_84/LargestRectangleInHistogram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="62" lean-forward="false" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/src/BojiGoal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="49" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#InputReader#0;class#BojiGoal#0" expanded="false" />
+            <element signature="method#read#0;class#InputReader#0;class#BojiGoal#0" expanded="false" />
+            <element signature="class#OutputWriter#0;class#BojiGoal#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7123">
+          <caret line="456" column="19" lean-forward="false" selection-start-line="456" selection-start-column="19" selection-end-line="456" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3621">
+          <caret line="239" column="6" lean-forward="false" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exams/src/dsa_retake/SupermarketQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="60" lean-forward="false" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#InputReader#0;class#SupermarketQueue#0" expanded="false" />
+            <element signature="method#readLong#0;class#InputReader#0;class#SupermarketQueue#0" expanded="false" />
+            <element signature="method#readDouble#0;class#InputReader#0;class#SupermarketQueue#0" expanded="false" />
+            <element signature="e#7756#7757#0" expanded="true" />
+            <element signature="e#7845#7846#0" expanded="true" />
+            <element signature="e#7884#7885#0" expanded="true" />
+            <element signature="e#7961#7962#0" expanded="true" />
+            <element signature="class#OutputWriter#0;class#SupermarketQueue#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12784">
+          <caret line="803" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1129" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/src/NaPlaj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#InputReader#0;class#NaPlaj#0" expanded="false" />
+            <element signature="method#readDouble#0;class#InputReader#0;class#NaPlaj#0" expanded="false" />
+            <element signature="method#readLineIgnoreSpace#0;class#InputReader#0;class#NaPlaj#0" expanded="false" />
+            <element signature="class#OutputWriter#0;class#NaPlaj#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exams/src/dsa_retake/Cheaters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#InputReader#0;class#Cheaters#0" expanded="false" />
+            <element signature="method#readDouble#0;class#InputReader#0;class#Cheaters#0" expanded="false" />
+            <element signature="method#readLineIgnoreSpace#0;class#InputReader#0;class#Cheaters#0" expanded="false" />
+            <element signature="class#OutputWriter#0;class#Cheaters#0" expanded="false" />
           </folding>
         </state>
       </provider>

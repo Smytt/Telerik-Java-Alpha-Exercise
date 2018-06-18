@@ -1,14 +1,10 @@
 import java.io.*;
-import java.util.InputMismatchException;
+import java.util.*;
 
 public class Test {
     public static void main(String[] args) {
-        int[] test = {1,2,3};
-        test[0]++;
-        test[0]++;
-        test[0]++;
-        test[0]++;
-
-        System.out.println(test[0]);
+        double a = 1.0;
+        double b = 1.00000000000000000000001;
+        System.out.println();
     }
 }
